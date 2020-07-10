@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 
 RUN apt-get update && apt-get install -y git ssh curl
 ARG HUGO_VERSION="0.73.0"
