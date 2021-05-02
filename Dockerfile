@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM golang:1.16-buster
 
 RUN apt-get update && apt-get install -y git ssh curl
 ARG HUGO_VERSION="0.83.0"
